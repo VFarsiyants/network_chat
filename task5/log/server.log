@@ -1,0 +1,12 @@
+2022-04-30 11:41:18,752 INFO server.py Получено сообщение от клиента:
+{'action': 'presence', 'time': 1651308078.751793, 'user': {'account name': 'Guest'}}
+2022-04-30 11:41:18,752 DEBUG server.py Обработка сообщения от клиента
+2022-04-30 11:41:18,752 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1651308078.751793, 'user': {'account name': 'Guest'}}
+2022-04-30 11:41:18,752 INFO server.py Отправляем ответ клиенту:
+{'response': 200}
+2022-04-30 11:41:55,741 INFO server.py Получено сообщение от клиента:
+{'action': 'presence', 'time': 1651308115.741009, 'user': {'account name': 'Guest'}}
+2022-04-30 11:41:55,741 DEBUG server.py Обработка сообщения от клиента
+2022-04-30 11:41:55,741 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1651308115.741009, 'user': {'account name': 'Guest'}}
+2022-04-30 11:41:55,741 INFO server.py Отправляем ответ клиенту:
+{'response': 200}
