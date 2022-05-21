@@ -1,7 +1,6 @@
-"""Конфигурация логгера сервера"""
+"""Конфигурация логгера клиента"""
 
 import logging
-from logging.handlers import TimedRotatingFileHandler
 import sys
 import os
 sys.path.append('../')
@@ -9,7 +8,7 @@ from common.variables import LOG_LEVEL
 
 # Получаем текущую директорию и создаем путь до файла логов
 PATH = os.path.dirname(os.path.abspath(__file__))
-PATH = os.path.join(PATH, 'server.log')
+PATH = os.path.join(PATH, 'client.log')
 
 # Создаем форматтер сообщения логгера
 FORMATTER = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
@@ -21,12 +20,10 @@ STREAM_HANDLER.setFormatter(FORMATTER)
 STREAM_HANDLER.setLevel(logging.ERROR)
 STREAM_HANDLER.setLevel(logging.ERROR)
 # Файловый обработчик логирования
-LOG_FILE = TimedRotatingFileHandler(PATH, when='midnight', 
-                                                interval=1,encoding='utf8')
-LOG_FILE.suffix = "-%Y-%m-%d"
+LOG_FILE = logging.FileHandler(PATH, encoding='utf8')
 LOG_FILE.setFormatter(FORMATTER)
 # Настройки регистратора
-LOGGER = logging.getLogger('server')
+LOGGER = logging.getLogger('client')
 LOGGER.addHandler(STREAM_HANDLER)
 LOGGER.addHandler(LOG_FILE)
 LOGGER.setLevel(LOG_LEVEL)

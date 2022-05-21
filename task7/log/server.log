@@ -1,0 +1,400 @@
+2022-05-16 21:58:03,655 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 21:58:03,655 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 21:58:53,414 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 21:58:53,414 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 21:59:13,252 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 21:59:13,252 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 21:59:27,390 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59485)
+2022-05-16 21:59:27,390 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59485)
+2022-05-16 21:59:27,390 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59485)>,) {}
+
+2022-05-16 21:59:27,390 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59485)>,) {}
+
+2022-05-16 21:59:27,390 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727567.390393, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 21:59:27,390 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727567.390393, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 21:59:27,391 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 21:59:27,391 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 21:59:27,391 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727567.390393, 'user': {'account name': 'Guest'}}
+2022-05-16 21:59:27,391 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727567.390393, 'user': {'account name': 'Guest'}}
+2022-05-16 21:59:27,391 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59485)>, {'response': 200}) {}
+
+2022-05-16 21:59:27,391 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59485)>, {'response': 200}) {}
+
+2022-05-16 21:59:27,592 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59485)>,) {}
+
+2022-05-16 21:59:27,592 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59485)>,) {}
+
+2022-05-16 21:59:27,593 INFO server.py Клиент 6 ('127.0.0.1', 59485) отключился
+2022-05-16 21:59:27,593 INFO server.py Клиент 6 ('127.0.0.1', 59485) отключился
+2022-05-16 22:00:23,253 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59499)
+2022-05-16 22:00:23,253 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59499)
+2022-05-16 22:00:23,454 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59499)>,) {}
+
+2022-05-16 22:00:23,454 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59499)>,) {}
+
+2022-05-16 22:00:23,455 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727623.2533288, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:00:23,455 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727623.2533288, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:00:23,455 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:00:23,455 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:00:23,456 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727623.2533288, 'user': {'account name': 'Guest'}}
+2022-05-16 22:00:23,456 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727623.2533288, 'user': {'account name': 'Guest'}}
+2022-05-16 22:00:23,456 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59499)>, {'response': 200}) {}
+
+2022-05-16 22:00:23,456 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59499)>, {'response': 200}) {}
+
+2022-05-16 22:00:23,534 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59500)
+2022-05-16 22:00:23,534 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59500)
+2022-05-16 22:00:23,534 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59499)>,) {}
+
+2022-05-16 22:00:23,534 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59499)>,) {}
+
+2022-05-16 22:00:23,534 INFO server.py Клиент 7 ('127.0.0.1', 59499) отключился
+2022-05-16 22:00:23,534 INFO server.py Клиент 7 ('127.0.0.1', 59499) отключился
+2022-05-16 22:00:23,736 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59500)>,) {}
+
+2022-05-16 22:00:23,736 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59500)>,) {}
+
+2022-05-16 22:00:23,737 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727623.5345888, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:00:23,737 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727623.5345888, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:00:23,737 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:00:23,737 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:00:23,737 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727623.5345888, 'user': {'account name': 'Guest'}}
+2022-05-16 22:00:23,737 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727623.5345888, 'user': {'account name': 'Guest'}}
+2022-05-16 22:00:23,738 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59500)>, {'response': 200}) {}
+
+2022-05-16 22:00:23,738 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59500)>, {'response': 200}) {}
+
+2022-05-16 22:00:23,870 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59501)
+2022-05-16 22:00:23,870 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59501)
+2022-05-16 22:00:23,870 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59500)>,) {}
+
+2022-05-16 22:00:23,870 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59500)>,) {}
+
+2022-05-16 22:00:23,870 INFO server.py Клиент 6 ('127.0.0.1', 59500) отключился
+2022-05-16 22:00:23,870 INFO server.py Клиент 6 ('127.0.0.1', 59500) отключился
+2022-05-16 22:00:24,071 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59501)>,) {}
+
+2022-05-16 22:00:24,071 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59501)>,) {}
+
+2022-05-16 22:00:24,072 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727623.870207, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:00:24,072 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727623.870207, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:00:24,072 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:00:24,072 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:00:24,072 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727623.870207, 'user': {'account name': 'Guest'}}
+2022-05-16 22:00:24,072 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727623.870207, 'user': {'account name': 'Guest'}}
+2022-05-16 22:00:24,072 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59501)>, {'response': 200}) {}
+
+2022-05-16 22:00:24,072 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59501)>, {'response': 200}) {}
+
+2022-05-16 22:00:24,273 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59501)>,) {}
+
+2022-05-16 22:00:24,273 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59501)>,) {}
+
+2022-05-16 22:00:24,274 INFO server.py Клиент 7 ('127.0.0.1', 59501) отключился
+2022-05-16 22:00:24,274 INFO server.py Клиент 7 ('127.0.0.1', 59501) отключился
+2022-05-16 22:00:24,715 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59503)
+2022-05-16 22:00:24,715 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59503)
+2022-05-16 22:00:24,916 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59503)>,) {}
+
+2022-05-16 22:00:24,916 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59503)>,) {}
+
+2022-05-16 22:00:24,917 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727624.715343, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:00:24,917 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652727624.715343, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:00:24,917 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:00:24,917 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:00:24,918 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727624.715343, 'user': {'account name': 'Guest'}}
+2022-05-16 22:00:24,918 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652727624.715343, 'user': {'account name': 'Guest'}}
+2022-05-16 22:00:24,918 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59503)>, {'response': 200}) {}
+
+2022-05-16 22:00:24,918 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59503)>, {'response': 200}) {}
+
+2022-05-16 22:00:25,120 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59503)>,) {}
+
+2022-05-16 22:00:25,120 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59503)>,) {}
+
+2022-05-16 22:00:25,121 INFO server.py Клиент 6 ('127.0.0.1', 59503) отключился
+2022-05-16 22:00:25,121 INFO server.py Клиент 6 ('127.0.0.1', 59503) отключился
+2022-05-16 22:18:13,202 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59717)
+2022-05-16 22:18:13,202 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59717)
+2022-05-16 22:18:13,205 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59717)>,) {}
+
+2022-05-16 22:18:13,205 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59717)>,) {}
+
+2022-05-16 22:18:13,205 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652728693.195711, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:18:13,205 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652728693.195711, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:18:13,205 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:18:13,205 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:18:13,206 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652728693.195711, 'user': {'account name': 'Guest'}}
+2022-05-16 22:18:13,206 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652728693.195711, 'user': {'account name': 'Guest'}}
+2022-05-16 22:18:13,206 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59717)>, {'response': 200}) {}
+
+2022-05-16 22:18:13,206 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59717)>, {'response': 200}) {}
+
+2022-05-16 22:18:13,206 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59716)
+2022-05-16 22:18:13,206 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59716)
+2022-05-16 22:18:13,207 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59716)>,) {}
+
+2022-05-16 22:18:13,207 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59716)>,) {}
+
+2022-05-16 22:18:13,207 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652728693.1957262, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:18:13,207 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652728693.1957262, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:18:13,207 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:18:13,207 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:18:13,207 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652728693.1957262, 'user': {'account name': 'Guest'}}
+2022-05-16 22:18:13,207 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652728693.1957262, 'user': {'account name': 'Guest'}}
+2022-05-16 22:18:13,208 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59716)>, {'response': 200}) {}
+
+2022-05-16 22:18:13,208 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59716)>, {'response': 200}) {}
+
+2022-05-16 22:18:31,509 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59716)>,) {}
+
+2022-05-16 22:18:31,509 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59716)>,) {}
+
+2022-05-16 22:18:31,510 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'message', 'time': 1652728711.459212, 'account name': 'Guest', 'msg_text': 'Привет'},) {}
+
+2022-05-16 22:18:31,510 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'message', 'time': 1652728711.459212, 'account name': 'Guest', 'msg_text': 'Привет'},) {}
+
+2022-05-16 22:18:31,510 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:18:31,510 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:18:31,511 ERROR server.py Получено сообщение в неправильном формате {'action': 'message', 'time': 1652728711.459212, 'account name': 'Guest', 'msg_text': 'Привет'}
+2022-05-16 22:18:31,511 ERROR server.py Получено сообщение в неправильном формате {'action': 'message', 'time': 1652728711.459212, 'account name': 'Guest', 'msg_text': 'Привет'}
+2022-05-16 22:18:31,511 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59716)>, {'response': 400, 'error': 'Bad Request'}) {}
+
+2022-05-16 22:18:31,511 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59716)>, {'response': 400, 'error': 'Bad Request'}) {}
+
+2022-05-16 22:19:15,756 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777)>,) {}
+
+2022-05-16 22:19:15,756 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777)>,) {}
+
+2022-05-16 22:35:05,355 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49528)
+2022-05-16 22:35:05,356 INFO server.py Клиент 5 ('127.0.0.1', 49528) отключился
+2022-05-16 22:37:10,726 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 22:37:31,433 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49543)
+2022-05-16 22:37:31,433 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>,) {}
+
+2022-05-16 22:37:31,433 INFO server.py Клиент 5 ('127.0.0.1', 49543) отключился
+2022-05-16 22:41:36,880 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 22:41:46,081 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49571)
+2022-05-16 22:41:46,081 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49571)>,) {}
+
+2022-05-16 22:41:46,081 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652730106.081177, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:41:46,081 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:41:46,081 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652730106.081177, 'user': {'account name': 'Guest'}}
+2022-05-16 22:41:46,081 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49571)>, {'response': 200}) {}
+
+2022-05-16 22:44:07,674 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49586)
+2022-05-16 22:44:07,674 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49586)>,) {}
+
+2022-05-16 22:44:07,674 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'presence', 'time': 1652730247.674201, 'user': {'account name': 'Guest'}},) {}
+
+2022-05-16 22:44:07,674 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:44:07,674 INFO server.py Получено сообщение от клиента ${'action': 'presence', 'time': 1652730247.674201, 'user': {'account name': 'Guest'}}
+2022-05-16 22:44:07,674 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49586)>, {'response': 200}) {}
+
+2022-05-16 22:44:13,505 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49586)>,) {}
+
+2022-05-16 22:44:13,506 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_message"
+Параметры функции: ({'action': 'message', 'time': 1652730253.4354408, 'account name': 'Guest', 'msg_text': 'Привет'},) {}
+
+2022-05-16 22:44:13,506 DEBUG server.py Обработка сообщения от клиента
+2022-05-16 22:44:13,506 ERROR server.py Получено сообщение в неправильном формате {'action': 'message', 'time': 1652730253.4354408, 'account name': 'Guest', 'msg_text': 'Привет'}
+2022-05-16 22:44:13,507 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49586)>, {'response': 400, 'error': 'Bad Request'}) {}
+
+2022-05-16 22:45:16,852 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777)>,) {}
+
+2022-05-16 22:57:51,697 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 22:58:23,194 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "get_port_adress"
+Параметры функции: () {}
+
+2022-05-16 22:58:47,557 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49714)
+2022-05-16 22:58:47,758 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49714)>,) {}
+
+2022-05-16 22:58:47,759 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "process_client_message"
+Параметры функции: ({'action': 'presence', 'time': 1652731127.557451, 'user': {'account name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49714)>) {}
+
+2022-05-16 22:58:47,759 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731127.557451, 'user': {'account name': 'Guest'}}
+2022-05-16 22:58:47,759 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49714)>, {'response': 200}) {}
+
+2022-05-16 22:59:09,507 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49716)
+2022-05-16 22:59:09,507 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49716)>,) {}
+
+2022-05-16 22:59:09,507 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "process_client_message"
+Параметры функции: ({'action': 'presence', 'time': 1652731149.5074618, 'user': {'account name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49716)>) {}
+
+2022-05-16 22:59:09,507 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731149.5074618, 'user': {'account name': 'Guest'}}
+2022-05-16 22:59:09,507 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49716)>, {'response': 200}) {}
+
+2022-05-16 22:59:15,140 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49716)>,) {}
+
+2022-05-16 22:59:15,141 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "process_client_message"
+Параметры функции: ({'action': 'message', 'time': 1652731154.98295, 'account name': 'Guest', 'msg_text': 'Привет'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49716)>) {}
+
+2022-05-16 22:59:15,141 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1652731154.98295, 'account name': 'Guest', 'msg_text': 'Привет'}
+2022-05-16 22:59:15,141 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49714)>, {'action': 'message', 'sender': 'Guest', 'time': 1652731155.141484, 'msg_text': 'Привет'}) {}
+
+2022-05-16 22:59:15,142 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49716)>, {'action': 'message', 'sender': 'Guest', 'time': 1652731155.141484, 'msg_text': 'Привет'}) {}
+
+2022-05-16 23:00:03,136 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49718)
+2022-05-16 23:00:03,136 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49718)>,) {}
+
+2022-05-16 23:00:03,137 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "process_client_message"
+Параметры функции: ({'action': 'presence', 'time': 1652731203.136697, 'user': {'account name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49718)>) {}
+
+2022-05-16 23:00:03,137 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731203.136697, 'user': {'account name': 'Guest'}}
+2022-05-16 23:00:03,137 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49718)>, {'response': 200}) {}
+
+2022-05-16 23:00:08,366 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49718)>,) {}
+
+2022-05-16 23:00:08,367 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "process_client_message"
+Параметры функции: ({'action': 'message', 'time': 1652731208.2020988, 'account name': 'Guest', 'msg_text': 'Я тут'}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49718)>) {}
+
+2022-05-16 23:00:08,367 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1652731208.2020988, 'account name': 'Guest', 'msg_text': 'Я тут'}
+2022-05-16 23:00:08,367 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49714)>, {'action': 'message', 'sender': 'Guest', 'time': 1652731208.367342, 'msg_text': 'Я тут'}) {}
+
+2022-05-16 23:00:08,367 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49716)>, {'action': 'message', 'sender': 'Guest', 'time': 1652731208.367342, 'msg_text': 'Я тут'}) {}
+
+2022-05-16 23:00:08,368 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49718)>, {'action': 'message', 'sender': 'Guest', 'time': 1652731208.367342, 'msg_text': 'Я тут'}) {}
+
+2022-05-16 23:00:35,714 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49714)>,) {}
+
+2022-05-16 23:00:35,716 INFO server.py Клиент ('127.0.0.1', 49714) отключился от сервера.
+2022-05-16 23:00:36,118 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777)>,) {}
+
+2022-05-16 23:00:57,502 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49727)
+2022-05-16 23:00:57,503 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731257.5026119, 'user': {'account name': 'Guest'}}
+2022-05-16 23:01:26,058 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1652731285.966208, 'account name': 'Guest', 'msg_text': 'пинг'}
+2022-05-16 23:02:44,707 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49733)
+2022-05-16 23:02:44,708 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731364.707106, 'user': {'account name': 'Guest'}}
+2022-05-16 23:02:46,352 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49734)
+2022-05-16 23:02:46,352 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731366.352292, 'user': {'account name': 'Guest'}}
+2022-05-16 23:02:59,827 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1652731379.6728551, 'account name': 'Guest', 'msg_text': 'привет'}
+2022-05-16 23:03:05,461 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1652731385.3925672, 'account name': 'Guest', 'msg_text': 'Я живу'}
+2022-05-16 23:03:24,163 INFO server.py Клиент ('127.0.0.1', 49733) отключился от сервера.
+2022-05-16 23:05:18,457 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49750)
+2022-05-16 23:05:18,458 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731518.4577029, 'user': {'account name': 'Guest'}}
+2022-05-16 23:05:20,003 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49751)
+2022-05-16 23:05:20,003 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731520.003383, 'user': {'account name': 'Guest'}}
+2022-05-16 23:05:21,512 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49752)
+2022-05-16 23:05:21,512 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731521.512063, 'user': {'account name': 'Guest'}}
+2022-05-16 23:05:23,021 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49754)
+2022-05-16 23:05:23,021 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1652731523.021269, 'user': {'account name': 'Guest'}}
+2022-05-16 23:06:07,066 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1652731566.938585, 'account name': 'Guest', 'msg_text': 'Привет'}
+2022-05-16 23:06:14,712 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1652731574.701159, 'account name': 'Guest', 'msg_text': 'Привет'}

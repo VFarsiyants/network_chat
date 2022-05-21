@@ -1,7 +1,10 @@
 """Конфигурация логгера сервера"""
 
+from code import interact
 import logging
 from logging.handlers import TimedRotatingFileHandler
+from datetime import date
+from platform import python_branch
 import sys
 import os
 sys.path.append('../')
