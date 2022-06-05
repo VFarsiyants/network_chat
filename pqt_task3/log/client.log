@@ -1,0 +1,67 @@
+2022-06-03 19:58:18,277 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "arg_parser"
+Параметры функции: () {}
+
+2022-06-03 19:58:20,984 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: test1
+2022-06-03 19:58:20,985 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "create_presence"
+Параметры функции: ('test1',) {}
+
+2022-06-03 19:58:20,985 DEBUG client.py Сформировано presence сообщение для пользователя account name
+2022-06-03 19:58:20,985 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61268), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654275500.98536, 'user': {'account name': 'test1'}}) {}
+
+2022-06-03 19:58:20,985 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61268), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-03 19:58:21,005 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_answer"
+Параметры функции: ({'response': 200},) {}
+
+2022-06-03 19:58:21,005 DEBUG client.py Обрабтка сообщения от сервера {'response': 200}
+2022-06-03 19:58:21,005 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-03 19:58:21,006 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61268), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-03 19:58:21,006 DEBUG client.py Запущены процессы
+2022-06-03 19:58:37,165 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "arg_parser"
+Параметры функции: () {}
+
+2022-06-03 19:58:39,657 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: test2
+2022-06-03 19:58:39,658 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "create_presence"
+Параметры функции: ('test2',) {}
+
+2022-06-03 19:58:39,658 DEBUG client.py Сформировано presence сообщение для пользователя account name
+2022-06-03 19:58:39,658 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61271), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654275519.658265, 'user': {'account name': 'test2'}}) {}
+
+2022-06-03 19:58:39,658 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61271), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-03 19:58:40,171 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "parse_answer"
+Параметры функции: ({'response': 200},) {}
+
+2022-06-03 19:58:40,172 DEBUG client.py Обрабтка сообщения от сервера {'response': 200}
+2022-06-03 19:58:40,172 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-03 19:58:40,172 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61271), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-03 19:58:40,172 DEBUG client.py Запущены процессы
+2022-06-03 19:58:45,073 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "create_message"
+Параметры функции: (<ClientSender(Thread-2, started daemon 6136295424)>,) {}
+
+2022-06-03 19:58:56,677 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'sender': 'test2', 'to': 'Здарова маслята', 'time': 1654275536.6771588, 'msg_text': ''}
+2022-06-03 19:58:56,677 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61271), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'test2', 'to': 'Здарова маслята', 'time': 1654275536.6771588, 'msg_text': ''}) {}
+
+2022-06-03 19:58:56,678 INFO client.py Отправлено сообщение для пользователя Здарова маслята
+2022-06-03 19:59:03,667 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "create_message"
+Параметры функции: (<ClientSender(Thread-2, started daemon 6136295424)>,) {}
+
+2022-06-03 19:59:14,010 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'sender': 'test2', 'to': 'test1', 'time': 1654275554.010497, 'msg_text': 'Здарова петушара'}
+2022-06-03 19:59:14,012 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61271), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'test2', 'to': 'test1', 'time': 1654275554.010497, 'msg_text': 'Здарова петушара'}) {}
+
+2022-06-03 19:59:14,012 INFO client.py Отправлено сообщение для пользователя test1
+2022-06-03 19:59:14,252 INFO client.py Получено сообщение от пользователя test2:
+Здарова петушара
+2022-06-03 19:59:14,252 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61268), raddr=('127.0.0.1', 7777)>,) {}
+
