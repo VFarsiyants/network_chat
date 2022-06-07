@@ -1,0 +1,5 @@
+autopep8==1.6.0
+pycodestyle==2.8.0
+SQLAlchemy==1.4.37
+tabulate==0.8.9
+toml==0.10.2
