@@ -4721,3 +4721,122 @@
 2022-06-12 10:17:22,680 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
 Параметры функции: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62956), raddr=('127.0.0.1', 7777)>,) {}
 
+2022-06-12 10:43:04,337 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "arg_parser"
+Параметры функции: () {}
+
+2022-06-12 10:43:10,295 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: test1
+2022-06-12 10:43:10,334 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62149), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655019790.334861, 'user': {'account_name': 'test1'}}) {}
+
+2022-06-12 10:43:10,334 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62149), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:43:10,837 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62149), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1655019790.837866, 'account_name': 'test1'}) {}
+
+2022-06-12 10:43:10,837 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62149), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:43:11,347 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62149), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1655019791.3474073, 'user': 'test1'}) {}
+
+2022-06-12 10:43:11,347 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62149), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:44:49,174 DEBUG decorators.py Из объемлющей области видимости "__main__" Вызвана функция "arg_parser"
+Параметры функции: () {}
+
+2022-06-12 10:45:02,170 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: test1
+2022-06-12 10:45:02,195 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655019902.1953926, 'user': {'account_name': 'test1'}}) {}
+
+2022-06-12 10:45:02,196 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:02,709 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1655019902.7093658, 'account_name': 'test1'}) {}
+
+2022-06-12 10:45:02,709 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:03,219 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1655019903.2192738, 'user': 'test1'}) {}
+
+2022-06-12 10:45:03,219 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:04,715 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:06,216 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:07,677 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1655019907.6778932, 'user': 'test1', 'account_name': 'test2'}) {}
+
+2022-06-12 10:45:07,677 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:07,729 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:09,230 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:10,732 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:12,232 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:13,733 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:15,235 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:16,735 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:18,236 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:19,738 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:21,239 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:22,739 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:24,240 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:25,742 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:27,242 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:28,743 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:30,244 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:31,745 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:33,247 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:34,748 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "send_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'test1', 'to': 'test2', 'time': 1655019934.7487419, 'msg_text': 'привет\n'}) {}
+
+2022-06-12 10:45:34,748 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
+2022-06-12 10:45:39,749 DEBUG decorators.py Из объемлющей области видимости "common.utils" Вызвана функция "get_message"
+Параметры функции: (<socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62579), raddr=('127.0.0.1', 7777)>,) {}
+
